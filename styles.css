@@ -19,7 +19,7 @@
 }
 
 .quote {
-    padding: 50px 400px;
+    padding: 50px 200px;
 }
 
 body {
@@ -34,7 +34,9 @@ body {
 .footer {
     display: flex;
     flex-grow: 0;
+    flex: 0 0 50px;
     min-height: 50px;
+    min-width: 0px;
 }
 
 .header {
@@ -104,13 +106,12 @@ img {
 }
 
 .herosection,
-.quote,
 .signup {
     flex: 2 0 auto;
 }
 
 .random {
-    flex: 3 0 250px;
+    flex: 3 1 250px;
 }
 
 .random * {
@@ -143,7 +144,6 @@ img {
     color: #e5e7eb;
 }
 
-
 .illustration {
     justify-items: center;
     display: flex;
@@ -170,7 +170,7 @@ img {
 }
 
 .quote {
-
+    flex: 0 1 200px;
     text-align: left;
     background-color: #e5e7eb;
     display: flex;
@@ -189,7 +189,6 @@ img {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    flex: 4;
 }
 
 .citation {
