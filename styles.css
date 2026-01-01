@@ -8,14 +8,18 @@
 }
 
 .header {
-    padding: 0px 100px;
+    padding: 0px 150px;
 }
 
 .herosection,
 .random,
-.quote,
+
 .signup {
-    padding: 50px 100px;
+    padding: 50px 150px;
+}
+
+.quote {
+    padding: 50px 400px;
 }
 
 body {
@@ -100,10 +104,13 @@ img {
 }
 
 .herosection,
-.random,
 .quote,
 .signup {
     flex: 2 0 auto;
+}
+
+.random {
+    flex: 3 0 250px;
 }
 
 .random * {
@@ -123,7 +130,7 @@ img {
     height: 100px;
     width: 150px;
     border-radius: 10px;
-    border: 3px #3882F6 solid;
+    border: 4px #3882F6 solid;
 }
 
 .button {
@@ -163,10 +170,7 @@ img {
 }
 
 .quote {
-    /* padding: 0px 200px; */
-    /* padding-top: 50px; */
-    padding-left: 200px;
-    padding-right: 200px;
+
     text-align: left;
     background-color: #e5e7eb;
     display: flex;
